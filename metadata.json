@@ -1,0 +1,6 @@
+{
+  "name": "KG-Vault",
+  "description": "Private romantic neon photo vault for two with separate secure access, albums, responsive gallery, lightbox, and photo management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

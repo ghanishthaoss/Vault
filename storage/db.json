@@ -1,0 +1,146 @@
+{
+  "vaults": {
+    "vault_1": {
+      "id": "vault_1",
+      "name": "Private Vault I",
+      "themeColor": "#38bdf8",
+      "symbol": "♂",
+      "passwordHash": "36cbefe2879276ada2c540868bb57f6e58211b07ecba494a596b368e126ea0751b67ed12af2a25899a4d1f0fbcd3f2de616855386ebb2b33e9a0e4653c145c2a",
+      "passwordSalt": "4dff7b2629a80d7ff250fabb45075a70",
+      "settings": {
+        "layout": "grid",
+        "thumbnailSize": "medium",
+        "autoLockMinutes": 15,
+        "confirmDelete": true,
+        "slideshowInterval": 4,
+        "accentTheme": "cyan"
+      }
+    },
+    "vault_2": {
+      "id": "vault_2",
+      "name": "Private Vault II",
+      "themeColor": "#ec4899",
+      "symbol": "♀",
+      "passwordHash": "cbacb7341e2d7dfaf2d068417601113bfaa2db6575a2c7c352b30c020d6d0015f74a906eff9ee33aee87171e4494e8793577d3239dfab111ae426041165d57bf",
+      "passwordSalt": "5632f59c65aa69197abef1ffdb60d176",
+      "settings": {
+        "layout": "grid",
+        "thumbnailSize": "medium",
+        "autoLockMinutes": 15,
+        "confirmDelete": true,
+        "slideshowInterval": 4,
+        "accentTheme": "pink"
+      }
+    }
+  },
+  "photos": [
+    {
+      "id": "photo_v1_1",
+      "vaultId": "vault_1",
+      "filename": "vault_sunset_coast_1793180904990.jpg",
+      "originalName": "Golden_Hour_Beach_Coast.jpg",
+      "mimeType": "image/jpeg",
+      "size": 242000,
+      "uploadDate": "2026-10-25T09:59:09.845Z",
+      "caption": "Sunset walk by the Pacific shores - warm breeze and quiet waves.",
+      "favorite": true,
+      "albumId": "album_v1_travel",
+      "filePath": "src/assets/images/vault_sunset_coast_1793180904990.jpg"
+    },
+    {
+      "id": "photo_v1_2",
+      "vaultId": "vault_1",
+      "filename": "vault_night_skyline_1793180906056.jpg",
+      "originalName": "HongKong_Harbor_Neon.jpg",
+      "mimeType": "image/jpeg",
+      "size": 318000,
+      "uploadDate": "2026-10-26T09:59:09.846Z",
+      "caption": "Night city lights reflecting across the bay water.",
+      "favorite": false,
+      "albumId": "album_v1_travel",
+      "filePath": "src/assets/images/vault_night_skyline_1793180906056.jpg"
+    },
+    {
+      "id": "photo_v2_1",
+      "vaultId": "vault_2",
+      "filename": "vault_cozy_cafe_1793180905695.jpg",
+      "originalName": "Morning_Coffee_Conversations.jpg",
+      "mimeType": "image/jpeg",
+      "size": 275000,
+      "uploadDate": "2026-10-24T09:59:09.846Z",
+      "caption": "Our favorite Sunday corner table with warm lattes and books.",
+      "favorite": true,
+      "albumId": "album_v2_moments",
+      "filePath": "src/assets/images/vault_cozy_cafe_1793180905695.jpg"
+    },
+    {
+      "id": "photo_v2_2",
+      "vaultId": "vault_2",
+      "filename": "vault_mountain_lake_1793180905476.jpg",
+      "originalName": "Moraine_Twilight_Stars.jpg",
+      "mimeType": "image/jpeg",
+      "size": 349000,
+      "uploadDate": "2026-10-27T09:59:09.846Z",
+      "caption": "Milky Way rising above the crystalline alpine lake.",
+      "favorite": true,
+      "albumId": "album_v2_getaways",
+      "filePath": "src/assets/images/vault_mountain_lake_1793180905476.jpg"
+    }
+  ],
+  "albums": [
+    {
+      "id": "album_v1_travel",
+      "vaultId": "vault_1",
+      "name": "Wanderlust Journeys",
+      "description": "Road trips, weekend escapes, and horizon views",
+      "color": "#38bdf8",
+      "createdAt": "2026-10-23T09:59:09.846Z"
+    },
+    {
+      "id": "album_v2_moments",
+      "vaultId": "vault_2",
+      "name": "Everyday Magic",
+      "description": "Quiet coffee dates, books, and small joys",
+      "color": "#ec4899",
+      "createdAt": "2026-10-23T09:59:09.846Z"
+    },
+    {
+      "id": "album_v2_getaways",
+      "vaultId": "vault_2",
+      "name": "Starlit Nights",
+      "description": "Wild camping and alpine wonders",
+      "color": "#a855f7",
+      "createdAt": "2026-10-25T09:59:09.846Z"
+    }
+  ],
+  "activity": [
+    {
+      "id": "act_1793355991883_10c457de",
+      "vaultId": "vault_1",
+      "type": "LOGIN",
+      "description": "Vault opened successfully",
+      "timestamp": "2026-10-30T10:26:31.883Z"
+    },
+    {
+      "id": "act_1793181605111_7ee339ec",
+      "vaultId": "vault_1",
+      "type": "LOGIN",
+      "description": "Vault opened successfully",
+      "timestamp": "2026-10-28T10:00:05.111Z"
+    },
+    {
+      "id": "act_init_1",
+      "vaultId": "vault_1",
+      "type": "LOGIN",
+      "description": "Vault unlocked from Chrome session",
+      "timestamp": "2026-10-28T09:59:09.846Z"
+    },
+    {
+      "id": "act_init_2",
+      "vaultId": "vault_2",
+      "type": "LOGIN",
+      "description": "Vault unlocked from mobile device",
+      "timestamp": "2026-10-28T09:59:09.846Z"
+    }
+  ]
+}
